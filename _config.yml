@@ -1,28 +1,24 @@
-title: Long Haul
-description: Long Form Jekyll theme built with SASS / COMPASS / SUSY
+name: davidanaya.io
+title: davidanaya.io
+description: Tech Lead at Telefonica Alpha
 
-url: http://brianmaierjr.github.com/long-haul
 baseurl: ""
-paginate_path: "blog/page:num/"
-permalink: blog/:title/
+paginate_path: "page/page:num/"
+permalink: none
 
 markdown: kramdown
 highlighter: rouge
 plugins: [jekyll-paginate]
-paginate: 5
+paginate: 10
 
-navigation:
-  - title: Home
-    url: /index.html
-  - title: About
-    url: /about
-  - title: Contact
-    url: /contact
+# navigation:
+#   - title: Home
+#     url: /index.html
+#   - title: About
+#     url: /about
 
 social:
-  github: brianmaierjr
-  twitter: brianmaierjr
-  facebook: brianmaierjr
-  email: brimaidesigns@gmail.com
+  github: davidanaya
+  twitter: danaya77
 
-google_analytics: "UA-58263416-1"
+google_analytics: ""
